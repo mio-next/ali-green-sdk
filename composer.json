@@ -1,0 +1,21 @@
+{
+    "name": "netcasts/ali-green-sdk",
+    "description": "ali-green-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "netcasts",
+            "email": "info@wowphp.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NetCasts\\AliGreen\\" : "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    }
+}
